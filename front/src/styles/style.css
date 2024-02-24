@@ -1,0 +1,64 @@
+*{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+select{
+    width: 200px;
+    height: 4vh;
+    font-size: 12px;
+    border: 1px solid rgb(183, 183, 183);
+}
+
+.selectBox {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #4350A7;
+}
+
+.selectBox .select {
+    background: transparent;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0 5px;
+    position: relative;
+    z-index: 3;
+}
+.selectBox .select option {
+    background: #101957;
+    color: #fff;
+    padding: 3px 0;
+    font-size: 16px;
+}
+.select option :focus{
+    background-color: #4350A7;
+}
+
+#page_title{
+    margin: 10px 0px 20px 0px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #101957;
+}
+
+#iconinfo{
+    padding: 10px;
+}
+
+#short{
+    width: 50%;
+    border-radius: 0px;
+}
+
+#width_middle{
+    width: 80%;
+}
+
+#width_short{
+    width: 40%
+}
+
+#height_long{
+    height: 13vh;
+}
